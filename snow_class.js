@@ -3,7 +3,7 @@
 class Snow {
 
     constructor (props) {
-        // const {imgsrc, flakeSpeed, flakeFluctSpeed, flakeDownSpeed, answer} = props;
+        Object.assign(this, props);
         this.flake = [];
         this.height = window.document.body.scrollHeight;
         this.width = window.document.body.clientWidth;
